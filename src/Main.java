@@ -7,7 +7,7 @@ public class Main {
         new Game().initNewGame();
 
         DBConnection.HOST = "localhost";
-        DBConnection.PORT = 3360;
+        DBConnection.PORT = 3306;
         DBConnection.DATABASE = "hangman";
         DBConnection.USERNAME = "luca";
         DBConnection.PASSWORD = "192837";
