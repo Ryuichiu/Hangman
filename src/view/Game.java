@@ -1,3 +1,7 @@
+package view;
+
+import service.WordManager;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyAdapter;
@@ -107,7 +111,7 @@ public class Game {
                 return;
             }
             if (tries == 0) {
-                var result = JOptionPane.showConfirmDialog(null, "Would you like to start a new game?", "New Game?", JOptionPane.YES_NO_OPTION);
+                var result = JOptionPane.showConfirmDialog(null, "Would you like to start a new game?", "New view.Game?", JOptionPane.YES_NO_OPTION);
                 if (result == JOptionPane.YES_OPTION) {
                     frame.dispose();
                     initNewGame();

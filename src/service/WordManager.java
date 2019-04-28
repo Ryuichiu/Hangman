@@ -1,3 +1,5 @@
+package service;
+
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.*;
@@ -28,6 +30,7 @@ public class WordManager {
             return Files.readAllLines(path);
         } catch (IOException e) {
             e.printStackTrace();
+
             return Collections.emptyList();
         }
     }

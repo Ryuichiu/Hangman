@@ -1,3 +1,5 @@
+package view;
+
 import javax.swing.*;
 import javax.swing.text.Highlighter;
 import java.awt.*;
